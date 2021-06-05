@@ -2,7 +2,7 @@ Parse wikipedia
 ===============
 
 1. Clone this repo and cd in it
-2. Prepare your environment (at least Python 3.8 please, preferably using a virtual env, and Rust)
+2. Prepare your environment (you'll need Python (at least 3.8), preferably using a virtual env, and Rust)
   
   ```console
   cargo install wparse
@@ -15,7 +15,7 @@ Parse wikipedia
   spacy download fr_core_news_sm
   ```
 
-  And get a HOPS model (here fr_UD-GSD_2.7-FlauBERT)
+  And get [a HOPS model](https://github.com/bencrabbe/npdependency/blob/master/models.md) (here fr_UD-GSD_2.7-FlauBERT)
   
 ```console
   wget -O hopsmodel.tar.xz https://sharedocs.huma-num.fr/wl/?id=WuJal5961Vng83Er90gkVC9LGBSp4iqX&fmode=download
