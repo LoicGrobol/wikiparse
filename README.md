@@ -17,9 +17,9 @@ Parse wikipedia
 
   And get [a HOPS model](https://github.com/bencrabbe/npdependency/blob/master/models.md) (here fr_UD-GSD_2.7-FlauBERT)
   
-```console
+  ```console
   wget -O hopsmodel.tar.xz https://sharedocs.huma-num.fr/wl/?id=WuJal5961Vng83Er90gkVC9LGBSp4iqX&fmode=download
-  tar -xJf hopsmodel.tar.xz hopsmodel
+  mkdir hopsmodel && tar -xJf hopsmodel.tar.xz --strip-components=1 -C hopsmodel
   ```
 3. Fetch a cirrus dump (find out the current one at <https://dumps.wikimedia.org/other/cirrussearch>)
   
